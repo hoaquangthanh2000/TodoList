@@ -1,0 +1,25 @@
+#todo-item{
+    min-width: 500px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 478px;
+    width: 120px;
+}
+#todo-item:hover{
+    background-color: rgba(131, 126, 127, 0.171);
+    cursor: pointer;
+}
+
+.icon{
+    float: right;
+    padding: 4px;
+}
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.checked{
+    color: rgb(42, 165, 83);
+}
